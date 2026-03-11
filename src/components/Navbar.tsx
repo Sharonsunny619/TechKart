@@ -16,11 +16,11 @@ export function Navbar() {
   return (
     <>
       <nav className="navbar grid grid-cols-[1fr_auto_1fr] items-center px-12 py-4 bg-surface border-b border-border sticky top-0 z-100">
-         <div className="flex items-center">
+         <NavLink to="/" className="flex items-center no-underline text-foreground">
           <span className="text-[1.4rem] font-black tracking-tight uppercase flex items-center gap-1">
            <TechKart/> {config.siteName}
           </span>
-        </div>
+        </NavLink>
 
          <div className="navbar__links flex items-center gap-1">
           {config.navigation.map(item => (
