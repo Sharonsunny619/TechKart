@@ -15,7 +15,7 @@ export function Badge({ text, variant = 'default' }: BadgeProps) {
 
   return (
     <span
-      className={`inline-block px-2 py-1 rounded-full text-xs font-semibold ${isDefault ? 'bg-primary/10 text-primary' : ''}`}
+      className={`inline-block whitespace-nowrap px-2 py-1 rounded-full text-xs font-semibold ${isDefault ? 'bg-primary/10 text-primary' : ''}`}
       style={!isDefault && colors ? { backgroundColor: colors.bg, color: colors.text } : undefined}
     >
       {text}

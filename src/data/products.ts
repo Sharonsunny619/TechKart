@@ -14,7 +14,7 @@ export const products: Product[] = [
   {
     id: 'p2',
     name: 'Mechanical Keyboard',
-    description: 'Hot-swappable switches, RGB backlight, and aluminum frame for a satisfying typing experience.',
+    description: 'Hot-swappable switches and RGB backlight for a satisfying typing experience.',
     price: 159.00,
     category: 'Peripherals',
     image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=300&fit=crop',
