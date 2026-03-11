@@ -107,3 +107,4 @@ Separating config, theme, and user data into distinct contexts avoids unnecessar
 - Vite
 - React Router v7
 - Plain CSS (no UI libraries)
+# TechKart1
